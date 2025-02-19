@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        .state {
+            color: #4CAF50;
+            font-size: 50px;
+            border-radius: 5px;
+        }
+
+        #WB {
+            border: 2px solid violet;
+            background-color: #f9f9f9;
+        }
+
+        /* #UP {
+            border: 2px solid red;
+            background-color: #f9f9f9;
+        } */
+
+        #Bihar {
+            border: 2px solid blue;
+            background-color: #f9f9f9;
+        }
+
+        form {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="state" id="WB">
+        Lorem ipsum dolor sit amet.
+    </div>
+
+    <div class="state" id="UP">
+        Lorem ipsum dolor sit amet.
+    </div>
+
+    <div class="state" id="Bihar">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <br>
+
+
+    <span class="state" id="WB">
+        Lorem ipsum dolor sit amet.
+    </span>
+
+    <span class="state" id="UP">
+        Lorem ipsum dolor sit amet.
+    </span>
+
+    <span class="state" id="Bihar">
+        Lorem ipsum dolor sit amet.
+    </span>
+
+
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        Sex: Male <input type="radio" name="sex" id=""> Female <input type="radio" name="sex" id=""><br><br>
+
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Grechen+Fuemen&display=swap');
+.container{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+h2{
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellowgreen;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    /* font-variation-settings: "wdth" 100; */
+}
+
+.container1 {
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden; /* Ensures the container wraps its floated children */
+}
+
+.item{
+    text-align: center;
+    border: 1px solid blue;
+    margin: 5px 5px;
+    background-color: aqua;
+}
+
+#Hello1{
+    float: left;
+    width: 45%;
+}
+#Hello2{
+    float: right;
+    width: 45%;
+}
+#Hello3{
+    float: left;
+    width: 45%;
+}
+
+.container3{
+    border: 2px solid black;
+    width: 10%;
+    height: 50px;
+    position: relative;
+    left: auto;
+}
+.container4{
+    border: 2px solid black;
+    width: 10%;
+    height: 50px;
+    position:relative;
+    left: 50px;
+}
+.container5{
+    border: 2px solid black;
+    width: 10%;
+    height: 50px;
+    position:sticky;
+    left: 150px;
+}
+.container6{
+    border: 2px solid black;
+    width: 10%;
+    height: 50px;
+    position: relative;
+    left: 50px;
+}
+.container7{
+    border: 2px solid black;
+    width: 10%;
+    height: 50px;
+    position: relative;
+    left: auto;
+}
